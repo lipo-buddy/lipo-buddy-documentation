@@ -1,0 +1,35 @@
+html {
+    background-color: #12263A;
+}
+
+body {
+    padding: 40px;
+    background-color: #f9c80e;
+    font-family: "rigid-square", sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 15px;
+}
+
+p {
+    font-size: 24px;
+}
+
+#battery {
+    width: 250px;
+    float: left;
+    margin-right: 40px;
+}
+
+#landing-comingsoon {
+    min-width: 300px;
+}

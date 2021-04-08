@@ -1,3 +1,13 @@
-baseURL = "http://example.org/"
+baseURL = "https://docs.lipobuddy.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "LiPo Buddy Documentation"
+theme = "book"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+disableKinds = ['taxonomy', 'taxonomyTerm']
+
+
+[params]
+  BookTheme = 'dark'

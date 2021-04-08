@@ -26,6 +26,7 @@ p {
 
 #battery {
     width: 250px;
+    height: 250px;
     float: left;
     margin-right: 40px;
 }

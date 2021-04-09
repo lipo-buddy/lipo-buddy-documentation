@@ -1,13 +1,28 @@
 baseURL = "https://docs.lipobuddy.com/"
 languageCode = "en-us"
-title = "LiPo Buddy Documentation"
-theme = "book"
+title = "Lipo Buddy Documentation"
+theme = "lipo-buddy-docs-theme"
+pluralizelisttitles = false
 
 [markup.goldmark.renderer]
-  unsafe = true
-
-disableKinds = ['taxonomy', 'taxonomyTerm']
-
+unsafe = true
 
 [params]
-  BookTheme = 'dark'
+    version = "v0.1.0"
+    siteUrl = "http://localhost:1313"
+    docsUrl = "http://localhost:1313"
+    filesUrl = "http://localhost:1313"
+    cloudUrl = "http://localhost:8080"
+    analyticsId = ""
+
+[menu]
+    [[menu.main]]
+        identifier = "guides"
+        title = "Guides"
+        pre = "<span class='bp3-icon bp3-icon-learning'></span>"
+        weight = 1
+    [[menu.main]]
+        identifier = "hardware"
+        title = "Hardware"
+        pre = "<span class='bp3-icon bp3-icon-code'></span>"
+        weight = 2

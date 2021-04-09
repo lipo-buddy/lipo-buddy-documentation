@@ -1,0 +1,8 @@
+name = "LiPo Buddy Docs Theme"
+description = "LiPo Buddy Documentation Theme."
+homepage = "https://www.lipobuddy.com/"
+min_version = "0.20"
+
+[author]
+  name = "Chris Dalke"
+  homepage = "https://chrisdalke.com"

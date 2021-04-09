@@ -11,9 +11,8 @@
 #secondaryFooter {
     position: relative;
     flex: 0 0 auto;
-    color: #738694;
-    background-color: #CED9E0;
-    font-family: monospace;
+    color: #a1abb3;
+    background-color: rgba(0,0,0,0.01);
 }
 
 .secondaryFooterContent span {
@@ -22,11 +21,12 @@
 }
 
 #secondaryFooter a {
-    color: #738694;
+    color: #a1abb3;
+    text-decoration: dotted;
 }
 
 .footerMoreLink {
-    color: #738694 !important;
+    color: #192124 !important;
 }
 
 #backToTop {

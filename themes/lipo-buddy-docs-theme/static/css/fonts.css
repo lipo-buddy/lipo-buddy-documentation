@@ -1,55 +1,35 @@
 @font-face {
-    font-family: "DIN";
-    src: url("../fonts/DINNextLTW04-Regular.woff") format("woff");
-    font-weight: 400;
-    font-style: normal
-}
-
-@font-face {
-    font-family: "DIN";
-    src: url("../fonts/DINNextLTW04-Italic.woff") format("woff");
-    font-weight: 400;
-    font-style: italic
-}
-
-@font-face {
-    font-family: "DIN";
-    src: url("../fonts/DINNextLTW04-Medium.woff") format("woff");
+    font-family: 'Blender Pro';
+    src: url('BlenderPro-Medium.eot');
+    src: local('Blender Pro Medium'), local('BlenderPro-Medium'),
+        url('BlenderPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('BlenderPro-Medium.woff2') format('woff2'),
+        url('BlenderPro-Medium.woff') format('woff'),
+        url('BlenderPro-Medium.ttf') format('truetype');
     font-weight: 500;
-    font-style: normal
+    font-style: normal;
 }
 
 @font-face {
-    font-family: "DIN";
-    src: url("../fonts/DINNextLTW04-Bold.woff") format("woff");
-    font-weight: 700;
-    font-style: normal
-}
-
-@font-face {
-    font-family: "DIN";
-    src: url("../fonts/DINNextLTW04-Heavy.woff") format("woff");
-    font-weight: 800;
-    font-style: normal
-}
-
-@font-face {
-    font-family: "DIN";
-    src: url("../fonts/DINNextLTW04-Light.woff") format("woff");
-    font-weight: 300;
-    font-style: normal
-}
-
-@font-face {
-    font-family: "Blender";
-    src: url("../fonts/blenderpro-medium-webfont.woff") format("woff");
+    font-family: 'Blender Pro';
+    src: url('BlenderPro-Book.eot');
+    src: local('Blender Pro Book'), local('BlenderPro-Book'),
+        url('BlenderPro-Book.eot?#iefix') format('embedded-opentype'),
+        url('BlenderPro-Book.woff2') format('woff2'),
+        url('BlenderPro-Book.woff') format('woff'),
+        url('BlenderPro-Book.ttf') format('truetype');
     font-weight: 400;
-    font-style: normal
+    font-style: normal;
 }
 
 @font-face {
-    font-family: "Blender";
-    src: url("../fonts/blenderpro-bold-webfont.woff") format("woff");
-    font-weight: 700;
-    font-style: normal
+    font-family: 'Blender Pro';
+    src: url('BlenderPro-Bold.eot');
+    src: local('Blender Pro Bold'), local('BlenderPro-Bold'),
+        url('BlenderPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('BlenderPro-Bold.woff2') format('woff2'),
+        url('BlenderPro-Bold.woff') format('woff'),
+        url('BlenderPro-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
 }

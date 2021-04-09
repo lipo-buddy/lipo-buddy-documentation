@@ -1,7 +1,7 @@
 <div id="headerSecondary">
     {{ $currentPage := . }}
     {{ $menu := .Site.Menus.main }}
-    <section class="noJsHidden">
+    <section>
         <div class="mobileHeaderFlexContainer">
             <div class="secondaryHeaderSectionDivider"></div>
             <div class="bp3-select bp3-minimal mobileSidebarNavDropdown">
@@ -25,9 +25,4 @@
             </div>
         </div>
     </section>
-    <noscript>
-        <section id="headerSecondaryNoscriptPath">
-            <a href="{{ .URL }}">{{ $currentPage.Title }}</a>
-        </section>
-    </noscript>
 </div>

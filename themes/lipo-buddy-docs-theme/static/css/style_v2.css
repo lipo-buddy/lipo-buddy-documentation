@@ -12,6 +12,13 @@ body {
     overflow-y: scroll;
 }
 
+#navbarLogoImage {
+    width: 24px;
+    height: 24px;
+    margin: 0px;
+    margin-right: 5px;
+}
+
 #rootFlexContent {
     position: relative;
     top: 0;
@@ -50,11 +57,11 @@ body {
     background-color: #FCFAFA;
     color: #192124;
     border-top: 1px solid #FCFAFA;
+    -webkit-box-shadow: 0 0 0 1px rgba(16,22,26,.04), 0 1px 1px rgba(16,22,26,.08), 0 2px 6px rgba(16,22,26,.08);
+    box-shadow: 0 0 0 1px rgba(16,22,26,.04), 0 1px 1px rgba(16,22,26,.08), 0 2px 6px rgba(16,22,26,.08);
     margin-bottom: 10px;
     min-height: 32px;
     max-height: 32px;
-    -webkit-box-shadow: 0 0 0 1px rgba(16,22,26,.04), 0 1px 1px rgba(16,22,26,.08), 0 2px 6px rgba(16,22,26,.08);
-    box-shadow: 0 0 0 1px rgba(16,22,26,.04), 0 1px 1px rgba(16,22,26,.08), 0 2px 6px rgba(16,22,26,.08);
 }
 #headerSecondary a {
     color: #192124;
@@ -112,11 +119,16 @@ section {
     padding-right: 10px;
 }
 
+#noJsWarningSection {
+    font-size: 13px;
+    padding-top: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 .headerNoJsWarning {
-    display: block;
     border-radius: 0px;
-    background-color: rgba(217, 130, 43, 0.15);
-    color: #bf7326;
+    background-color: #42291d;
+    color: #faa652;
 }
 
 /* Small Screen */

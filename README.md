@@ -21,7 +21,6 @@ branch is deployed to the development site.
 
 |Branch|Deploy Status|Target|
 |------|-------------|------|
-|`develop`|![Netlify Status](https://api.netlify.com/api/v1/badges/2a5a7c91-13d2-4ec5-9345-9513bc02a11b/deploy-status)|https://docs.dev.lipobuddy.com/|
 |`master`|![Netlify Status](https://api.netlify.com/api/v1/badges/cf816beb-2989-43b9-8499-720df8d1ee2f/deploy-status)|https://docs.lipobuddy.com/|
 
 ### Development
